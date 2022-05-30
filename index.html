@@ -1,77 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONSTRUCTION</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="asset/css/reset.css">
+    <link rel="stylesheet" href="asset/css/index.css">
+    <script src="asset/js/script.js"></script>
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <body>
     <div id="wrap">
         <header>
             <div class="nav_bar">
-                <h1><a href="javascript:void(0);">CONSTRUCTION</a></h1>
+                <h1><a href="#none">CONSTRUCTION</a></h1>
                 <nav>
-                    <a href="javascript:void(0);" class="active">Home</a>
-                    <a href="javascript:void(0);">About Us</a>
-                    <a href="javascript:void(0);">Services</a>
-                    <a href="javascript:void(0);">Project</a>
+                    <ul>
+                        <li><a href="#none" class="active">Home</a></li>
+                        <li><a href="#none">About Us</a></li>
+                        <li><a href="#none">Services</a></li>
+                        <li><a href="#none">Project</a></li>
+                    </ul>
                 </nav>
-            </div>
-            <div class="h_contents">
-                <h2><span>Masters </span>of<br>
-                    Consistency and<br>
-                    <span>Quality.</span></h2>
-                <p>Blessing welcomed ladyship she met humoured sir<br>breeding her. Six curiosity day assurance bed necessary.</p>
-                <div class="buttons">
-                    <a href="javascript:void(0);" class="btn btn_bg">Explore</a>
-                    <a href="javascript:void(0);" class="btn btn_border">Contact Us</a>
-                </div>
-                <div class="stars">
-                    <div class="s1">
-                        <div>
-                            <span class="half_c"></span>
-                            <span class="half_c_cover"></span>
-                        </div>
-                        <p>25,356</p>
-                        <p>Projects Done</p>
-                    </div>
-                    <div class="s2">
-                        <div>
-                            <span class="half_c"></span>
-                            <span class="half_c_cover"></span>
-                        </div>
-                        <p>15,200</p>
-                        <p>Buildings Done</p>
-                    </div>
-                    <div class="s3">
-                        <div>
-                            <span class="half_c"></span>
-                            <span class="half_c_cover"></span>
-                        </div>
-                        <p>350+</p>
-                        <p>Total Employees</p>
-                    </div>
-                </div>
             </div>
         </header>
         <main>
-            <section id="logo">
-                <a href="javascript:void(0);"><img src="images/LOGO_chase.png" alt="chase"></a>
-                <a href="javascript:void(0);"><img src="images/LOGO_asana.png" alt="asana"></a>
-                <a href="javascript:void(0);"><img src="images/LOGO_buzzfeed.png" alt="buzzfeed"></a>
-                <a href="javascript:void(0);"><img src="images/LOGO_toggl.png" alt="toggl"></a>
-                <a href="javascript:void(0);"><img src="images/LOGO_walmart.png" alt="walmart"></a>
-            </section><!-- e:logo -->
-            <section id="explore">
+            <section class="main_visual">
+                <div class="kv">
+                    <div class="kv_left">
+                        <h2><span>Masters </span>of<br>
+                            Consistency and<br>
+                            <span>Quality.</span></h2>
+                        <p>Blessing welcomed ladyship she met humoured sir<br>breeding her. Six curiosity day assurance bed necessary.</p>
+                        <div class="buttons">
+                            <a href="#none" class="btn btn_bg">Explore</a>
+                            <a href="#none" class="btn btn_border">Contact Us</a>
+                        </div>
+                        <div class="deco">
+                            <div class="s1">
+                                <div>
+                                    <span class="half_c"></span>
+                                    <span class="half_c_cover"></span>
+                                </div>
+                                <p>25,356</p>
+                                <p>Projects Done</p>
+                            </div>
+                            <div class="s2">
+                                <div>
+                                    <span class="half_c"></span>
+                                    <span class="half_c_cover"></span>
+                                </div>
+                                <p>15,200</p>
+                                <p>Buildings Done</p>
+                            </div>
+                            <div class="s3">
+                                <div>
+                                    <span class="half_c"></span>
+                                    <span class="half_c_cover"></span>
+                                </div>
+                                <p>350+</p>
+                                <p>Total Employees</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kv_right"><img src="asset/images/building1.png" alt=""></div>
+                </div>
+                <div class="logo">
+                    <a href="#none"><img src="asset/images/LOGO_chase.png" alt="chase"></a>
+                    <a href="#none"><img src="asset/images/LOGO_asana.png" alt="asana"></a>
+                    <a href="#none"><img src="asset/images/LOGO_buzzfeed.png" alt="buzzfeed"></a>
+                    <a href="#none"><img src="asset/images/LOGO_toggl.png" alt="toggl"></a>
+                    <a href="#none"><img src="asset/images/LOGO_walmart.png" alt="walmart"></a>
+                </div>
+            </section><!-- e:main_visual -->
+            <section class="explore">
                 <div class="explore_title">
                     <div class="e_left">
                         <p>
                             Blessing welcomed ladyship she met humoured sir<br>breeding her. Six curiosity day assurance bed necessary.
                         </p>
-                        <a href="javascript:void(0);" class="btn btn_bg">Explore</a>
+                        <a href="#none" class="btn btn_bg">Explore</a>
                     </div>
                     <div class="e_right">
                         <p>
@@ -105,117 +114,216 @@
                     </div>
                 </div>
             </section><!-- e:explore -->
-            <section id="engineers">
-                <div class="engineers_t title">
+            <section class="engineers">
+                <div class="eng_t title">
                     <h2>Our Best Engineers</h2>
                     <p>Blessing welcomed ladyship she met humoured sir breeding her. Six<br>curiosity day assurance bed necessary.</p>
                 </div>
-                <div class="engineers_content">
-                    <div class="eng eng1">
-                        <div class="e_icon">
-                            <div class="star"><img src="images/star.png" alt="star"></div>
-                            <button type="button" class="more">
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </button>
+                <div class="eng_c_wrap">
+                    <div class="eng_c">
+                        <div class="eng_c_slide">
+                            <div class="eng">
+                                <div class="e_icon">
+                                    <form class="bookmark">
+                                        <fieldset>
+                                            <legend class="skip">bookmark</legend>
+                                            <input type="checkbox" name="bookmark" value="bookmark" id="bookmark1">
+                                            <label for="bookmark1">bookmark</label>
+                                        </fieldset>
+                                    </form>
+                                    <button type="button" class="more">
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </button>
+                                </div>
+                                <div class="e_person">
+                                    <img src="asset/images/eng_chris.png" alt="">
+                                    <p class="person_name">Chris Evans</p>
+                                    <p class="person_team">Michigan, TX</p>
+                                    <a  href="tel:989-653-2986" class="person_num">989-653-2986</a>
+                                    <a href="mailto:ChrisEvans@const.com" class="person_email">ChrisEvans@const.com</a>
+                                </div>
+                            </div>
+                            <div class="eng">
+                                <div class="e_icon">
+                                    <form class="bookmark">
+                                        <fieldset>
+                                            <legend class="skip">bookmark</legend>
+                                            <input type="checkbox" name="bookmark" value="bookmark" id="bookmark2">
+                                            <label for="bookmark2">bookmark</label>
+                                        </fieldset>
+                                    </form>
+                                    <button type="button" class="more">
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </button>
+                                </div>
+                                <div class="e_person">
+                                    <img src="asset/images/eng_alison.png" alt="">
+                                    <p class="person_name">Alison Kiara</p>
+                                    <p class="person_team">Michigan, TX</p>
+                                    <a href="tel:989-653-2986" class="person_num">989-653-2986</a>
+                                    <a href="mailto:alisonkiara@const.com" class="person_email">alisonkiara@const.com</a>
+                                </div>
+                            </div>
+                            <div class="eng">
+                                <div class="e_icon">
+                                    <form class="bookmark">
+                                        <fieldset>
+                                            <legend class="skip">bookmark</legend>
+                                            <input type="checkbox" name="bookmark" value="bookmark" id="bookmark3">
+                                            <label for="bookmark3">bookmark</label>
+                                        </fieldset>
+                                    </form>
+                                    <button type="button" class="more">
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </button>
+                                </div>
+                                <div class="e_person">
+                                    <img src="asset/images/eng_adam.png" alt="">
+                                    <p class="person_name">Adam Gates</p>
+                                    <p class="person_team">Michigan, TX</p>
+                                    <a href="tel:989-653-2986" class="person_num">989-653-2986</a>
+                                    <a href="mailto:adamgates@const.com" class="person_email">adamgates@const.com</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="e_person">
-                            <img src="images/eng_chris.png" alt="">
-                            <p class="person_name">Chris Evans</p>
-                            <p class="person_team">Michigan, TX</p>
-                            <p class="person_num">989-653-2986</p>
-                            <p class="person_email">ChrisEvans@const.com</p>
-                        </div>
-                    </div>
-                    <div class="eng eng2">
-                        <div class="e_icon">
-                            <div class="star"><img src="images/star.png" alt="star"></div>
-                            <button type="button" class="more">
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </button>
-                        </div>
-                        <div class="e_person">
-                            <img src="images/eng_alison.png" alt="">
-                            <p class="person_name">Alison Kiara</p>
-                            <p class="person_team">Michigan, TX</p>
-                            <p class="person_num">989-653-2986</p>
-                            <p class="person_email">alisonkiara@const.com</p>
-                        </div>
-                    </div>
-                    <div class="eng eng3">
-                        <div class="e_icon">
-                            <div class="star"><img src="images/star.png" alt="star"></div>
-                            <button type="button" class="more">
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                            </button>
-                        </div>
-                        <div class="e_person">
-                            <img src="images/eng_adam.png" alt="">
-                            <p class="person_name">Adam Gates</p>
-                            <p class="person_team">Michigan, TX</p>
-                            <p class="person_num">989-653-2986</p>
-                            <p class="person_email">adamgates@const.com</p>
+                        <div class="eng_c_slide">
+                            <div class="eng">
+                                <div class="e_icon">
+                                    <form class="bookmark">
+                                        <fieldset>
+                                            <legend class="skip">bookmark</legend>
+                                            <input type="checkbox" name="bookmark" value="bookmark" id="bookmark1">
+                                            <label for="bookmark1">bookmark</label>
+                                        </fieldset>
+                                    </form>
+                                    <button type="button" class="more">
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </button>
+                                </div>
+                                <div class="e_person">
+                                    <img src="asset/images/eng_chris.png" alt="">
+                                    <p class="person_name">Chris Evans</p>
+                                    <p class="person_team">Michigan, TX</p>
+                                    <a  href="tel:989-653-2986" class="person_num">989-653-2986</a>
+                                    <a href="mailto:ChrisEvans@const.com" class="person_email">ChrisEvans@const.com</a>
+                                </div>
+                            </div>
+                            <div class="eng">
+                                <div class="e_icon">
+                                    <form class="bookmark">
+                                        <fieldset>
+                                            <legend class="skip">bookmark</legend>
+                                            <input type="checkbox" name="bookmark" value="bookmark" id="bookmark1">
+                                            <label for="bookmark1">bookmark</label>
+                                        </fieldset>
+                                    </form>
+                                    <button type="button" class="more">
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </button>
+                                </div>
+                                <div class="e_person">
+                                    <img src="asset/images/eng_chris.png" alt="">
+                                    <p class="person_name">Chris Evans</p>
+                                    <p class="person_team">Michigan, TX</p>
+                                    <a  href="tel:989-653-2986" class="person_num">989-653-2986</a>
+                                    <a href="mailto:ChrisEvans@const.com" class="person_email">ChrisEvans@const.com</a>
+                                </div>
+                            </div>
+                            <div class="eng">
+                                <div class="e_icon">
+                                    <form class="bookmark">
+                                        <fieldset>
+                                            <legend class="skip">bookmark</legend>
+                                            <input type="checkbox" name="bookmark" value="bookmark" id="bookmark1">
+                                            <label for="bookmark1">bookmark</label>
+                                        </fieldset>
+                                    </form>
+                                    <button type="button" class="more">
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </button>
+                                </div>
+                                <div class="e_person">
+                                    <img src="asset/images/eng_chris.png" alt="">
+                                    <p class="person_name">Chris Evans</p>
+                                    <p class="person_team">Michigan, TX</p>
+                                    <a  href="tel:989-653-2986" class="person_num">989-653-2986</a>
+                                    <a href="mailto:ChrisEvans@const.com" class="person_email">ChrisEvans@const.com</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="engineers_buttons">
-                    <button type="button" class="e_prev"><img src="images/Icon_arrow.png" alt="prev"></button>
-                    <button type="button" class="e_next"><img src="images/Icon_arrow_w.png" alt="next"></button>
+                <div class="eng_btn">
+                    <button type="button" class="e_prev"><svg width="20" height="9" viewBox="0 0 20 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-1.82131e-07 4.16667L5.02873 8.33333L5.02873 5L20 5L20 3.33333L5.02874 3.33333L5.02874 2.19813e-07L-1.82131e-07 4.16667Z" fill="#313131"/>
+                        </svg>
+                        </button>
+                    <button type="button" class="e_next"><svg width="20" height="9" viewBox="0 0 20 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-1.82131e-07 4.16667L5.02873 8.33333L5.02873 5L20 5L20 3.33333L5.02874 3.33333L5.02874 2.19813e-07L-1.82131e-07 4.16667Z" fill="#313131"/>
+                        </svg>
+                        </button>
                 </div>
             </section><!-- e:engineers -->
-            <section id="message">
+            <section class="message">
                 <h2>Message from CEO</h2>
                 <div class="m_text">
                     <p>Shewing met parties gravity husband sex pleased. On to no kind do next feel held walk. Last own loud and knew give gay four. Sentiments motionless or principles preference excellence am. Literature surrounded insensible at indulgence or to admiration remarkably. Matter future lovers desire marked boy use. Chamber reached do he nothing be.</p>
                     <p>Do in laughter securing smallest sensible no mr hastened. As perhaps proceed in in brandon of limited unknown greatly. Distrusts fulfilled happiness unwilling as explained of difficult. No landlord of peculiar ladyship attended if contempt ecstatic. Loud wish made on is am as hard. Court so avoid in plate hence. Of received mr breeding concerns peculiar securing landlord. Spot to many it four bred soon well to. Or am promotion in no departure abilities. Whatever landlord yourself at by pleasure of children be.</p>
                 </div>
             </section><!-- e:message -->
-            <section id="contact">
+            <section class="contact">
                 <div class="contact_t title">
                     <h2>Contact Us</h2>
                     <p>Blessing welcomed ladyship she met humoured sir breeding her. Six<br>curiosity day assurance bed necessary.</p>
                 </div>
                 <div class="contact_content">
-                    <form action="javascript:void(0);" method="post" id="contact_info">
+                    <form action="#none" method="post" id="contact_info">
                         <fieldset>
                             <legend class="skip">personal info, message</legend>
                             <div class="name">
-                                <span class="info_name">Name</span>
-                                <input type="text" name="user_name" placeholder="Name">
+                                <input type="text" name="user_name" id="user_name" placeholder="Name">
+                                <label for="user_name">Name</label>
                             </div>
                             <div class="email">
-                                <span class="info_name">Email</span>
-                                <input type="email" name="user_mail" placeholder="Email">
+                                <input type="email" name="user_mail" id="user_mail" placeholder="Email">
+                                <label for="user_mail">Email</label>
                             </div>
                             <div class="subject">
-                                <span class="info_name">Subject</span>
-                                <input type="text" name="subject" placeholder="Subject">
+                                <input type="text" name="subject" id="subject" placeholder="Subject">
+                                <label for="subject">Subject</label>
                             </div>
-                            <div class="message">
-                                <span class="info_name">message</span>
-                                <textarea>Message</textarea>
+                            <div class="message_txt">
+                                <textarea id="message_txt">Message</textarea>
+                                <label for="message_txt">message</label>
                             </div>
                             <button type="submit" class="btn btn_bg">Send Massage</button>
                         </fieldset>
                     </form>
                     <div class="map">
-                        <img src="images/MAP.png" alt="map">
+                        <img src="asset/images/MAP.png" alt="map">
                         <div class="state">
-                            <a href="javascript:void(0);"><img src="images/pakistan.png" alt="pakistan flag"><span>Pakistan</span></a>
-                            <a href="javascript:void(0);"><img src="images/brazil.png" alt="brazil flag"><span>Brazil</span></a>
-                            <a href="javascript:void(0);"><img src="images/australia.png" alt="austrailia flag"><span>Austrailia</span></a>
-                            <a href="javascript:void(0);"><img src="images/grmany.png" alt="grmany flag"><span>Grmany</span></a>
-                            <a href="javascript:void(0);"><img src="images/canada.png" alt="canada flag"><span>Canada</span></a>
+                            <a href="#none"><img src="asset/images/pakistan.png" alt="pakistan flag"><span>Pakistan</span></a>
+                            <a href="#none"><img src="asset/images/brazil.png" alt="brazil flag"><span>Brazil</span></a>
+                            <a href="#none"><img src="asset/images/australia.png" alt="austrailia flag"><span>Austrailia</span></a>
+                            <a href="#none"><img src="asset/images/grmany.png" alt="grmany flag"><span>Grmany</span></a>
+                            <a href="#none"><img src="asset/images/canada.png" alt="canada flag"><span>Canada</span></a>
                         </div>
                     </div>
                 </div>
             </section><!-- e:contact -->
-            <section id="blogs">
+            <section class="blogs">
                 <div class="b_t title">
                     <h2>Lattest Blogs</h2>
                     <p>Blessing welcomed ladyship she met humoured sir breeding her. Six<br>curiosity day assurance bed necessary.</p>
@@ -230,7 +338,7 @@
                             <article class="b2">
                                 <p>Unleash Your Creativity</p>
                                 <p>Nine for Mortal Men, doomed to die, One for</p>
-                                <a href="javascript:void(0);" class="btn btn_border">Read more</a>
+                                <a href="#none" class="btn btn_border">Read more</a>
                             </article>
                             <article class="b1">
                                 <p>Unleash Your Creativity</p>
@@ -239,7 +347,7 @@
                             <article class="b2">
                                 <p>Unleash Your Creativity</p>
                                 <p>Nine for Mortal Men, doomed to die, One for</p>
-                                <a href="javascript:void(0);" class="btn btn_border">Read more</a>
+                                <a href="#none" class="btn btn_border">Read more</a>
                             </article>
                             <article class="b1">
                                 <p>Unleash Your Creativity</p>
@@ -248,7 +356,7 @@
                             <article class="b2">
                                 <p>Unleash Your Creativity</p>
                                 <p>Nine for Mortal Men, doomed to die, One for</p>
-                                <a href="javascript:void(0);" class="btn btn_border">Read more</a>
+                                <a href="#none" class="btn btn_border">Read more</a>
                             </article>
                             <article class="b1">
                                 <p>Unleash Your Creativity</p>
@@ -257,7 +365,7 @@
                             <article class="b2">
                                 <p>Unleash Your Creativity</p>
                                 <p>Nine for Mortal Men, doomed to die, One for</p>
-                                <a href="javascript:void(0);" class="btn btn_border">Read more</a>
+                                <a href="#none" class="btn btn_border">Read more</a>
                             </article>
                             <article class="b1">
                                 <p>Unleash Your Creativity</p>
@@ -266,7 +374,7 @@
                             <article class="b2">
                                 <p>Unleash Your Creativity</p>
                                 <p>Nine for Mortal Men, doomed to die, One for</p>
-                                <a href="javascript:void(0);" class="btn btn_border">Read more</a>
+                                <a href="#none" class="btn btn_border">Read more</a>
                             </article>
                             <article class="b1">
                                 <p>Unleash Your Creativity</p>
@@ -275,7 +383,7 @@
                             <article class="b2">
                                 <p>Unleash Your Creativity</p>
                                 <p>Nine for Mortal Men, doomed to die, One for</p>
-                                <a href="javascript:void(0);" class="btn btn_border">Read more</a>
+                                <a href="#none" class="btn btn_border">Read more</a>
                             </article>
                             <article class="b1">
                                 <p>Unleash Your Creativity</p>
@@ -284,17 +392,17 @@
                             <article class="b2">
                                 <p>Unleash Your Creativity</p>
                                 <p>Nine for Mortal Men, doomed to die, One for</p>
-                                <a href="javascript:void(0);" class="btn btn_border">Read more</a>
+                                <a href="#none" class="btn btn_border">Read more</a>
                             </article>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="subscribe">
+            <section class="subscribe">
                 <h2>Subscribe to our<br>
                     Newsletter</h2>
                 <p>Age sold some full like rich new. Amounted repeated as<br>believed in confined juvenile.</p>
-                <a href="javascript:void(0);" class="btn btn_bg">SUBSCRIBE</a>
+                <a href="#none" class="btn btn_bg">SUBSCRIBE</a>
             </section><!-- e:subscribe -->
         </main>
         <footer>
@@ -303,97 +411,32 @@
                     <h1><a href="javascript:void(0);">CONSTRUCTION</a></h1>
                     <p>You’ll find your next Home<br>loan valu you prefer.</p>
                     <div class="social">
-                        <a href="javascript:void(0);"><img src="images/facebook.png" alt="facebook"></a>
-                        <a href="javascript:void(0);"><img src="images/twitter.png" alt="twitter"></a>
-                        <a href="javascript:void(0);"><img src="images/in.png" alt="in"></a>
+                        <a href="#none"><img src="asset/images/facebook.png" alt="facebook"></a>
+                        <a href="#none"><img src="asset/images/twitter.png" alt="twitter"></a>
+                        <a href="#none"><img src="asset/images/in.png" alt="in"></a>
                     </div>
                 </div>
                 <div class="resources">
                     <p>Resources</p>
-                    <a href="javascript:void(0);">Our Agents</a>
-                    <a href="javascript:void(0);">Member Stories</a>
-                    <a href="javascript:void(0);">Video</a>
-                    <a href="javascript:void(0);">Free trial</a>
+                    <a href="#none">Our Agents</a>
+                    <a href="#none">Member Stories</a>
+                    <a href="#none">Video</a>
+                    <a href="#none">Free trial</a>
                 </div>
                 <div class="company">
                     <p>Company</p>
-                    <a href="javascript:void(0);">Patnerships</a>
-                    <a href="javascript:void(0);">Terms of use</a>
-                    <a href="javascript:void(0);">Privacy</a>
-                    <a href="javascript:void(0);">Sitemap</a>
+                    <a href="#none">Patnerships</a>
+                    <a href="#none">Terms of use</a>
+                    <a href="#none">Privacy</a>
+                    <a href="#none">Sitemap</a>
                 </div>
                 <div class="touch">
                     <p>Get in touch</p>
-                    <a href="javascript:void(0);">Enter your mail</a>
+                    <a href="#none">Enter your mail</a>
                 </div>
             </div>
             <p class="copyright">Copyright construction.com, All rights reserved.</p>
         </footer>
     </div><!-- e:wrap -->
-
-    <script>
-
-
-            const message = document.querySelector("textarea")
-            const info_c = document.querySelectorAll("input")
-            const info_name = document.querySelectorAll(".info_name")
-            const info_wrap = document.querySelectorAll("fieldset > div")
-            console.log(message)
-            console.log(info_c)
-            console.log(info_name)
-            console.log(info_wrap)
-
-
-            info_c[0].addEventListener('click', function(){
-                common()
-                info_name[0].style.display = 'block'
-                info_c[0].classList.add('c_active')
-
-                if(message.innerHTML == ""){
-                    message.innerHTML = "Message"
-                }
-            })
-
-            info_c[1].addEventListener('click', function(){
-                common()
-                info_name[1].style.display = 'block'
-                info_c[1].classList.add('c_active')
-
-                if(message.innerHTML == ""){
-                    message.innerHTML = "Message"
-                }
-            })
-
-            info_c[2].addEventListener('click', function(){
-                common()
-                info_name[2].style.display = 'block'
-                info_c[2].classList.add('c_active')
-
-                if(message.innerHTML == ""){
-                    message.innerHTML = "Message"
-                }
-            })
-
-            message.addEventListener('click', function(){
-                common ()
-                message.innerHTML = ""
-                info_name[3].style.display = 'block'
-                message.classList.add('c_active')
-
-            })
-
-            function common () {
-                for(i=0; i<info_c.length; i++){
-                    info_c[i].classList.remove('c_active')
-                }
-                for(i=0; i<info_name.length; i++){
-                    info_name[i].style.display = "none"
-                }
-                
-                message.classList.remove('c_active')
-            }
-
-
-    </script>
 </body>
 </html>

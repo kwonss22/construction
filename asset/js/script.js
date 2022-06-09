@@ -8,6 +8,4 @@ window.onload=function() {
     $('.e_prev').on('click', function(){
         $('.eng_c').css('left', '0')
     })
-
-    $('.e_next').focus()
 }
